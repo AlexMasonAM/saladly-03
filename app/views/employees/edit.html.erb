@@ -1,0 +1,6 @@
+<%= form_for @employee do |f| %>
+  Name: <%= f.text_field :name %><br>
+  Hourly Wage (float): <%= f.number_field :hourly_wage, :step => 0.01 %><br>
+  Address: <%= f.text_field :address %><br>
+  <%= f.submit 'Add Employee' %><br>
+<% end %>

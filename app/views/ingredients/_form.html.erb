@@ -1,0 +1,21 @@
+<%= form_for @ingredient do |f| %>
+  <div class='form-group'>
+    Name
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+  <div class='form-group'>
+    Initial Quantity (float)
+    <%= f.number_field :quantity, :step => 0.01, class: 'form-control' %>
+  </div>
+  <div class='form-group'>
+    Units (plural)
+    <%= f.text_field :units, class: 'form-control' %>
+  </div>
+  <div class='form-group'>
+    Unit Price (cents)
+    <%= f.number_field :price_per_unit, :step => 0.01, class: 'form-control' %>
+  </div>
+  <div class='form-group'>
+    <%= f.submit 'Create Ingredient', class: 'form-control btn btn-primary' %>
+  </div>
+<% end %>

@@ -1,0 +1,22 @@
+<h4><%= link_to 'Add Employee', new_employee_path %></h4>
+
+<table>
+
+  <thead>
+    <th>Name</th>
+    <th>Hourly Wage</th>
+    <th>Address</th>
+  </thead>
+
+  <tbody>
+    <% @employees.each do |employee| %>
+      <tr>
+        <td><%= employee.name %></td>
+        <td><%= number_to_currency(employee.hourly_wage) %></td>
+        <td><%= employee.address %></td>
+        <td><%= link_to 'Edit', edit_employee_path(employee) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>

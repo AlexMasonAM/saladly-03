@@ -1,0 +1,22 @@
+<h4><%= link_to 'Add New Ingredient', new_ingredient_path %></h4>
+
+<table>
+
+  <thead>
+    <th>Name</th>
+    <th>Quanitity</th>
+    <th>Unit Price</th>
+  </thead>
+
+  <tbody>
+    <% @ingredients.each do |i| %>
+      <tr>
+        <td><%= i.name.downcase %></td>
+        <td><%= i.quantity %> <%= i.units %></td>
+        <td><%= number_to_currency(i.price_per_unit) %> per <%= i.units.singularize %></td>
+        <td><%= link_to 'Edit', edit_ingredient_path(i) %> | <%= link_to 'X', i, method: :delete %></td>
+      </tr>
+    <% end %>
+  </tbody>
+
+</table>
