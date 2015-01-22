@@ -15861,3 +15861,338 @@ Processing by IngredientsController#index as HTML
   MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.7620ms
   Rendered ingredients/index.html.erb within layouts/application (13.4ms)
 Completed 200 OK in 108ms (Views: 106.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-21 16:55:23 -0800
+Processing by IngredientsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5070ms
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5890ms
+  Rendered ingredients/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 176ms (Views: 175.3ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 16:55:24 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-21 17:26:15 -0800
+Processing by IngredientsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 60.2260ms
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 23.8210ms
+  Rendered ingredients/index.html.erb within layouts/application (236.1ms)
+Completed 200 OK in 753ms (Views: 670.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:16 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:17 -0800
+
+
+Started GET "/ingredients/54c04958416c656c4f000000/edit" for 127.0.0.1 at 2015-01-21 17:26:20 -0800
+Processing by IngredientsController#edit as HTML
+  Parameters: {"id"=>"54c04958416c656c4f000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={"_id"=>BSON::ObjectId('54c04958416c656c4f000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 18.9760ms
+  Rendered ingredients/_form.html.erb (41.5ms)
+  Rendered ingredients/edit.html.erb within layouts/application (66.7ms)
+Completed 200 OK in 204ms (Views: 183.5ms)
+
+
+Started PATCH "/ingredients/54c04958416c656c4f000000" for 127.0.0.1 at 2015-01-21 17:26:29 -0800
+Processing by IngredientsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SVD6jBXpjMO2mZy15CF0cqi/CIMJEdBF6BZOBek+dyw=", "ingredient"=>{"name"=>"fried rice", "quantity"=>"10.0", "units"=>"3", "price_per_unit"=>"1023.0", "photo"=>#<ActionDispatch::Http::UploadedFile:0x007f9a65751dc0 @tempfile=#<Tempfile:/var/folders/rd/tg26fy810q55_sn3qzmm7xmr0000gn/T/RackMultipart20150121-28866-8q6ehj>, @original_filename="friedrice.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"ingredient[photo]\"; filename=\"friedrice.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Ingredient", "id"=>"54c04958416c656c4f000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={"_id"=>BSON::ObjectId('54c04958416c656c4f000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.6210ms
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={"$query"=>{"_id"=>BSON::ObjectId('54c04958416c656c4f000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 7.4380ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=saladly_development collection=ingredients selector={"_id"=>BSON::ObjectId('54c04958416c656c4f000000')} update={"$set"=>{"photo"=>"friedrice.jpeg"}} flags=[]
+                         COMMAND      database=saladly_development command={:getlasterror=>1, :w=>1} runtime: 85.7170ms
+Redirected to http://localhost:3000/ingredients
+Completed 302 Found in 1780ms
+
+
+Started GET "/ingredients" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+Processing by IngredientsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8990ms
+  Rendered ingredients/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 136ms (Views: 134.5ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:31 -0800
+
+
+Started GET "/ingredients/54c0418d416c656a8c000000/edit" for 127.0.0.1 at 2015-01-21 17:26:34 -0800
+Processing by IngredientsController#edit as HTML
+  Parameters: {"id"=>"54c0418d416c656a8c000000"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6650ms
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={"_id"=>BSON::ObjectId('54c0418d416c656a8c000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3940ms
+  Rendered ingredients/_form.html.erb (2.8ms)
+  Rendered ingredients/edit.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 136ms (Views: 132.9ms)
+
+
+Started PATCH "/ingredients/54c0418d416c656a8c000000" for 127.0.0.1 at 2015-01-21 17:26:46 -0800
+Processing by IngredientsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SVD6jBXpjMO2mZy15CF0cqi/CIMJEdBF6BZOBek+dyw=", "ingredient"=>{"name"=>"cheesesteaks", "quantity"=>"10.0", "units"=>"1", "price_per_unit"=>"1000.0", "photo"=>#<ActionDispatch::Http::UploadedFile:0x007f9a6549f3c0 @tempfile=#<Tempfile:/var/folders/rd/tg26fy810q55_sn3qzmm7xmr0000gn/T/RackMultipart20150121-28866-1lvvcuz>, @original_filename="cheesesteaks.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"ingredient[photo]\"; filename=\"cheesesteaks.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Ingredient", "id"=>"54c0418d416c656a8c000000"}
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={"_id"=>BSON::ObjectId('54c0418d416c656a8c000000')} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4000ms
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={"$query"=>{"_id"=>BSON::ObjectId('54c0418d416c656a8c000000')}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7080ms
+  MOPED: 127.0.0.1:27017 UPDATE       database=saladly_development collection=ingredients selector={"_id"=>BSON::ObjectId('54c0418d416c656a8c000000')} update={"$set"=>{"photo"=>"cheesesteaks.jpeg"}} flags=[]
+                         COMMAND      database=saladly_development command={:getlasterror=>1, :w=>1} runtime: 0.6200ms
+Redirected to http://localhost:3000/ingredients
+Completed 302 Found in 731ms
+
+
+Started GET "/ingredients" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+Processing by IngredientsController#index as HTML
+  MOPED: 127.0.0.1:27017 QUERY        database=saladly_development collection=ingredients selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.8230ms
+  Rendered ingredients/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 90ms (Views: 89.7ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-21 17:26:47 -0800
