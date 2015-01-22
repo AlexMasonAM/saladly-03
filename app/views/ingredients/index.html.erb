@@ -3,6 +3,7 @@
 <table>
 
   <thead>
+    <th>Photo</th>
     <th>Name</th>
     <th>Quanitity</th>
     <th>Unit Price</th>
@@ -11,6 +12,7 @@
   <tbody>
     <% @ingredients.each do |i| %>
       <tr>
+        <td><%= image_tag i.photo.url(:small), alt:"#{i.name.downcase}", width: "100" %></td>
         <td><%= i.name.downcase %></td>
         <td><%= i.quantity %> <%= i.units %></td>
         <td><%= number_to_currency(i.price_per_unit) %> per <%= i.units.singularize %></td>
