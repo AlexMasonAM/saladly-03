@@ -41,3 +41,13 @@ gem 'mongoid', '~> 4.0.0'
 
 # For awesome styling with easeeeeee
 gem "twitter-bootstrap-rails"
+
+# CarrierWave Gems 
+gem 'carrierwave'
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+
+gem 'fog' #required for Amazon S3
+gem 'mini_magick' # for post-upload image processing
+
+gem 'figaro'
+
